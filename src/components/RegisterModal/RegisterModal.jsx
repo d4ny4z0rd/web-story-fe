@@ -21,7 +21,7 @@ const RegisterModal = () => {
 		setIsProcessing(true);
 		try {
 			const response = await fetch(
-				`${process.env.REACT_APP_BACKEND_URL}/api/auth/register`,
+				`https://web-story-api.onrender.com/api/auth/register`,
 				{
 					method: "POST",
 					headers: {
