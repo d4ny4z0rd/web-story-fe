@@ -19,7 +19,7 @@ const SignInModal = () => {
 		setIsProcessing(true);
 		try {
 			const response = await fetch(
-				`${process.env.REACT_APP_BACKEND_URL}/api/auth/login`,
+				`https://web-story-api.onrender.com/api/auth/login`,
 				{
 					method: "POST",
 					headers: {
